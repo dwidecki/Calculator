@@ -22,8 +22,13 @@ public class Calculator {
 			else if(answer == 3) {
 				System.out.println((operand1 * operand2));
 			}
-			else {
-				System.out.println((operand1 / operand2));
+			else if(answer == 4){
+				if(operand2 == 0) {
+					System.out.println("Error: Divide by Zero");
+				}
+				else {
+					System.out.println((operand1 / operand2));
+				}
 			}
 			}
 		else if(numberType == 2) {
@@ -42,8 +47,13 @@ public class Calculator {
 			else if(answer == 3) {
 				System.out.println((operand1 * operand2));
 			}
-			else {
-				System.out.println((operand1 / operand2));
+			else if(answer == 4){
+				if(operand2 == 0.0) {
+					System.out.println("Error: Divide by Zero");
+				}
+				else {
+					System.out.println((operand1 / operand2));
+				}
 			}
 		}
 		else {
@@ -62,8 +72,13 @@ public class Calculator {
 			else if(answer == 3) {
 				System.out.println((operand1 * operand2));
 			}
-			else {
-				System.out.println((operand1 / operand2));
+			else if(answer == 4){
+				if(operand2 == 0) {
+					System.out.println("Error: Divide by Zero");
+				}
+				else {
+					System.out.println((operand1 / operand2));
+				}
 			}
 		}
 	}
