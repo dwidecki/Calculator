@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Welcome to the Calculator App!");
+		System.out.println("Welcome to the Calculator App! Please read the instructions below.");
 		System.out.println("What type of numbers are you trying to calculate?");
 		System.out.println("Press 1 for integer, Press 2 for double, Press 3 for float");
 		int numberType = sc.nextInt();
